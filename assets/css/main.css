@@ -2353,7 +2353,9 @@ body {
 		}
 
 			.image.fit img {
-				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				height: 200px;
 			}
 
 		.image.main {
@@ -2887,6 +2889,9 @@ body {
 		.wrapper.style4 {
 			background-color: #323232;
 			color: #a6a6a6;
+		}
+		.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+			color: #c0c0c0;
 		}
 
 		.wrapper.style2 {
