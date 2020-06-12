@@ -2,11 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
-/*
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 
@@ -23,9 +18,9 @@
 		display: block;
 	}
 
-	body {
-		line-height: 1;
-	}
+body {
+	line-height: 1;
+}
 
 	ol, ul {
 		list-style: none;
@@ -45,9 +40,9 @@
 		border-spacing: 0;
 	}
 
-	body {
-		-webkit-text-size-adjust: none;
-	}
+body {
+	-webkit-text-size-adjust: none;
+}
 
 /* Box Model */
 
@@ -1555,9 +1550,8 @@
 		width: device-width;
 	}
 
-	body {
-		-ms-overflow-style: scrollbar;
-	}
+body {
+}
 
 	@media screen and (max-width: 480px) {
 
@@ -1807,10 +1801,11 @@
 
 /* Box */
 
-	.box {
-		margin-bottom: 2rem;
-		background: #555;
-	}
+.box {
+	margin-bottom: 2rem;
+	background: #555;
+	border-radius: 20px;
+}
 
 		.box .image.fit {
 			margin: 0;
@@ -1818,7 +1813,7 @@
 		}
 
 			.box .image.fit img {
-				border-radius: 0;
+				border-radius: 20px;
 			}
 
 		.box header h2 {
@@ -3399,6 +3394,36 @@
 			}
 
 		}
+/*Description pannel*/
+.description {
+	width: 100%;
+
+}
+.journal {
+	margin-bottom: 2rem;
+	background: #555;
+	border-radius: 20px;
+	width:100%;
+	height:400px;
+	text-align:center;
+	padding: 10px;
+}
+
+	.journal .image.fit {
+		margin: 0;
+		border-radius: 0;
+	}
+
+		.journal .image.fit img {
+			border-radius: 20px;
+			float: left;
+			width: 40%;
+		}
+		}
+	.journal .content {
+	}
+
+
 
 /* Flexgrid */
 
