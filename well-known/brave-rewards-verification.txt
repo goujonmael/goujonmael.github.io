@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: goujonmael.github.io
-Token: 7d1751f527f0ac1f5ae2462705633a61dd1be61e6a855c4ee6da17227eeb8b50
