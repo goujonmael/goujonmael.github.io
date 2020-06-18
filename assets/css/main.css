@@ -4067,6 +4067,23 @@ body {
 
 /* Banner */
 
+
+#logo{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+#logos {
+	fill: none;
+	stroke: #fafafa;
+	stroke-width: 3px;
+	stroke-dasharray: 400;
+	stroke-dashoffset: 400;
+	opacity: 1;
+	animation: 4s text-outline infinite alternate;
+}
+
 	.banner {
 		background-color: #2b2b2b;
 		color: #e2d1df;
