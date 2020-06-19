@@ -3552,7 +3552,8 @@ body {
 
 	.journal1 img {
 		width: 100%;
-		padding: 20px;
+		padding: 10px;
+		border-radius: 20px;
 	}
 
 	.journal1 .image.fit img {
