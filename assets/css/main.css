@@ -4106,6 +4106,7 @@ body {
 
 	to {
 		fill: #EC004B;
+		opacity: 0.5;
 	}
 }
 
@@ -4266,7 +4267,7 @@ body {
 				font-size: 7rem;
 				margin-bottom: 0;
 				color: #FFF;
-				font-weight: 300;
+				font-weight: 400;
 			}
 
 				.banner > article h2:after {
