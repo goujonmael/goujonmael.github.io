@@ -4068,11 +4068,45 @@ body {
 /* Banner */
 
 
-#logo{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
+#logo {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 90%;
+	height: 90vh;
+	margin: auto;
+	animation: fill 0.7s ease forwards 1.3s;
+}
+
+	#logo path {
+		stroke-width: 10px;
+		stroke-dasharray: 1700;
+		stroke-dashoffset: 1700;
+		animation: 2s text-outline forwards;
+	}
+
+@keyframes text-outline {
+	from {
+		opacity: 0;
+		stroke-dashoffset: 1700;
+	}
+
+	to {
+		opacity: 1;
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes fill {
+	from {
+		fill: transparent;
+	}
+
+	to {
+		fill: #EC004B;
+	}
 }
 
 	.banner {
