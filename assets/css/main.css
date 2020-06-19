@@ -21,12 +21,12 @@
 
 	#section03 a span {
 		position: absolute;
-		bottom: 10vh;
+		bottom: 15vh;
 		left: 50%;
 		width: 46px;
 		height: 46px;
 		margin-left: -23px;
-		border: 1px solid #f00f0f;
+		border: 1px solid #fff;
 		border-radius: 100%;
 		box-sizing: border-box;
 	}
@@ -39,8 +39,8 @@
 			width: 16px;
 			height: 16px;
 			margin: -12px 0 0 -8px;
-			border-left: 1px solid #ff000f;
-			border-bottom: 1px solid #f000ff;
+			border-left: 1px solid #fff;
+			border-bottom: 1px solid #fff;
 			-webkit-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 			box-sizing: border-box;
@@ -2766,7 +2766,7 @@ body {
 /* Wrapper */
 
 	.wrapper {
-		padding: 0rem 0 1rem 0 ;
+		padding: 6rem 0 1rem 0 ;
 		position: relative;
 		margin: 0;
 	}
