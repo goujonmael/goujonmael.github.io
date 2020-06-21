@@ -4166,6 +4166,22 @@ body {
 
 /* Banner */
 
+#logo1 {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	width: 90%;
+	height: 90vh;
+	margin: auto;
+}
+
+	#logo1 path {
+		stroke-width: 10px;
+		stroke-dasharray: 1700;
+		stroke-dashoffset: 1700;
+		animation: 2s text-outline forwards;
+	}
 
 #logo {
 	position: absolute;
