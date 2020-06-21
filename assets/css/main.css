@@ -4168,11 +4168,11 @@ body {
 
 #logo1 {
 	position: absolute;
-	top: 50px;
+	top: 40vh;
 	left: 0;
 	right: 0;
-	width: 90%;
-	height: 90vh;
+	width: 50%;
+	height: 50vh;
 	margin: auto;
 }
 
