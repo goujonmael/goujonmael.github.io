@@ -16,3 +16,4 @@
     <tspan fill="green">world</tspan>!
   </text>
 </svg>
+<p style='color:red'>This is some red text.</p>
